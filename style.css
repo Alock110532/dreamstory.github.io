@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=Poppins:wght@300&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'bebas';
+}
+#logo{
+    border-radius: 100%;
+    height: 12%;
+    width: 11%;
+   
+}
+.navbar-brand .dream{
+    color: yellowgreen;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-brand .story{
+    color: gold;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+#header .navbar-nav .nav-item .nav-link{
+    color: orange;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+    color: rgb(217, 255, 0);
+}
+
+
+#heading .navbar-toggler:focus{
+    box-shadow: none;
+}
+/*home css*/
+#container .home .home-photo img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.home .home-photo .home-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+.home .home-photo .home-text h2{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+.home .home-photo .home-text .dream{
+    /* color: yellowgreen; */
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+}
+.home .home-photo .home-text .story{
+    /* color: gold; */
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+    padding: 2px;
+}
+.home .home-photo .home-text p{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    padding-bottom: 5px;
+    
+}
+.home .home-photo .search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+
+}
+.search{
+    width: 35rem;
+    border: 2px solid red;
+}
+.search .btn{
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 100%;
+    background-color: white;
+}
+.search .btn:hover{
+    background-color: rgba(245, 83, 8, 0.959);
+}
+
+/*home css*/
+#home .container{
+    padding-top: 2rem;
+    padding-bottom: 1px;
+}
+.card{
+    border: 5px solid orange;
+    /* margin-left: 32px; */
+
+}
+.card:hover{
+    border: 5px solid yellowgreen;
+}
+.card .submit-btn button{
+    border-radius: 50%;
+    padding: 1px;
+    border: 2px solid goldenrod;
+    background-color: yellowgreen;
+}
+.card .submit-button button:hover{
+    background-color: orange;
+    border: 2px solid red;
+}
+/* create css */
+#create .container{
+    padding-top: 2rem;
+    padding-bottom: 1px;
+    
+}
+#create .form-group{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*service*/
+#service .container{
+    padding-top: 2rem;
+    padding-bottom: 1px;
+}
+.container .payment-mathod{
+    margin-top: 5px;
+}
+
+.button .search{
+    border: none;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+.social-media{
+    margin-left: 420px;
+    
+}
+/*contact css*/
+#contact .container{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.contact{
+    
+    background-color: var(--bg-light-white);
+}
+.contact h4{
+    margin: 0 0;
+}
+.contact .info li p a{
+    color: var(--text-black);
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 0;
+    text-decoration: none;
+}
+.contact .font-group{
+    margin-bottom: 1.5rem;
+}
+.contact .form-control{
+    height: 2.7rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 0 0.18rem 1.5rem 0 rgba(0,0,0, 12%);
+}
+.contact textarea{
+    width: 100%;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0 0.18rem 1.5rem 0 rgba(0,0,0, 12%);
+}
+.contact textarea:focus{
+    outline: none;
+    border: none;
+}
+.contact button{
+    margin-top: 2rem;
+    color: var(--text-white);
+}
+.contact button:hover{
+    background-color: orangered;
+
+}
+/*footer css*/
+.copyright{
+    background: darkmagenta;
+}
+.copyright p,
+.copyright a{
+    color: var(--text-white);
+}
+#copy{
+    margin-top: 0.7rem;
+}
+#design{
+    margin-top: -3.4rem;
+}
+h5{
+    color: red;
+}
+
+
+
